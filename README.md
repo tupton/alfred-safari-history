@@ -2,6 +2,8 @@
 
 Access your Safari history from Alfred with `sh {query}`.
 
+![alfred safari history workflow](screenshot.png)
+
 ## How to install
 
 Clone this repo and symlink it to `<sync directory>/Alfred.alfredpreferences/workflows/alfred-safari-history`. Your Alfred sync directory can be found going to Preferences → Advanced → Syncing.
