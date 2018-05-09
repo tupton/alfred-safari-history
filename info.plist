@@ -159,6 +159,6 @@ python safari.py "${PROFILE}" "{query}"</string>
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string>http://thomasupton.com</string>
+	<string>https://github.com/tupton/alfred-safari-history</string>
 </dict>
 </plist>
