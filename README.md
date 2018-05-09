@@ -1,8 +1,6 @@
 # Alfred Safari History Workflow
 
-Access your Safari history from Alfred with `ch {query}`.
-
-![alfred safari history workflow](screenshot.png)
+Access your Safari history from Alfred with `sh {query}`.
 
 ## How to install
 
