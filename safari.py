@@ -34,7 +34,7 @@ CACHE_EXPIRY = 60
 HISTORY_DB = 'History.db'
 
 HISTORY_QUERY = u"""
-SELECT history_items.id, url, title
+SELECT history_items.id, title, url
     FROM history_items
         INNER JOIN history_visits
         ON history_visits.history_item = history_items.id
