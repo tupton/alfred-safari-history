@@ -89,3 +89,4 @@ if __name__ == '__main__':
         sys.exit(-1)
 
     alfred.write(alfred.xml(history_results(db, query)))
+    db.close()
