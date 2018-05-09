@@ -40,7 +40,7 @@ SELECT history_items.id, title, url
         ON history_visits.history_item = history_items.id
     WHERE url LIKE ? OR title LIKE ?
     GROUP BY url
-    ORDER BY visit_time DESC, visit_count DESC
+    ORDER BY visit_time DESC
 """
 
 class ErrorItem(alfred.Item):
