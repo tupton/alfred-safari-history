@@ -10,6 +10,8 @@ Access your Safari history from Alfred with `sh {query}`.
 
   [releases]: https://github.com/tupton/alfred-safari-history/releases
 
+Safari's History database is used by this workflow to access browser history. In order to read this database, Alfred must have Full Disk Access permissions. This is possible to do in System Preferences > Security & Privacy > Privacy. Currently, there are no more granular permissions than Full Disk Access to allow apps to read the Safari History database.
+
 ### From source
 
 Clone this repo and symlink it to `<sync directory>/Alfred.alfredpreferences/workflows/alfred-safari-history`. Your Alfred sync directory can be found going to Preferences → Advanced → Syncing.
