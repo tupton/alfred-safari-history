@@ -48,7 +48,7 @@
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
-				<integer>36</integer>
+				<integer>102</integer>
 				<key>script</key>
 				<string>open -a "/Applications/Safari.app" "{query}"</string>
 				<key>scriptargtype</key>
@@ -72,6 +72,8 @@
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -112,7 +114,7 @@ python safari.py "${PROFILE}" "{query}"</string>
 			<key>uid</key>
 			<string>93CEB251-2277-4B65-B2F6-81C1364DFC45</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -129,7 +131,7 @@ python safari.py "${PROFILE}" "{query}"</string>
 			<key>uid</key>
 			<string>D561D273-1E54-47FC-B2BB-1DF202864D7D</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
