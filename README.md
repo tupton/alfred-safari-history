@@ -20,7 +20,7 @@ Then run `make dev` to install requirements and set the repository up to be used
 
 ## Configuration
 
-The workflow should work out of the box with the `ch` prefix. If you'd like to change this, update the keyword in the Alfred workflow's script filter.
+The workflow should work out of the box with the `sh` prefix. If you'd like to change this, update the keyword in the Alfred workflow's script filter.
 
 The Alfred script filter is set up to use the default Safari profile. If you need to use a different profile, update the `PROFILE` environment variable in the Alfred workflow's script filter.
 
