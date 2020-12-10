@@ -69,7 +69,7 @@ def history_db(profile):
     return db
 
 def history_results(db, query):
-    q = u'%{}%'.format(query)
+    q = u'%{}%'.format('%'.join(query.split(' ')))
     for row in db.execute(HISTORY_QUERY, (q, q,)):
         (uid, title, url) = row
         icon = None
