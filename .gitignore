@@ -2,3 +2,5 @@ History
 venv/
 *.alfredworkflow
 *.pyc
+alfred.py
+docopt.py
