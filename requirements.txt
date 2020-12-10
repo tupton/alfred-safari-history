@@ -1,2 +1,2 @@
-git+git://github.com/nikipore/alfred-python.git
+alfred-python @ git+git://github.com/nikipore/alfred-python.git@81ea35b3bdfb2ebd2429d86439d997bc557cabd2
 docopt==0.6.2
