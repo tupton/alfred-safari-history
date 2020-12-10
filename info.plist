@@ -123,6 +123,8 @@ python safari.py "${PROFILE}" "{query}"</string>
 				<true/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
 				<key>transient</key>
 				<false/>
 			</dict>
